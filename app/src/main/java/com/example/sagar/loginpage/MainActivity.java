@@ -150,6 +150,8 @@ boolean add,sub,div,mul;
                 div = true;
             }
         });
+
+        //Perform Operation based on operator that has been chosen(Sag)
         eq.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
