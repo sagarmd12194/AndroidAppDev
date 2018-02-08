@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:gravity="left"
+    android:orientation="vertical"
+    tools:context="com.example.sagar.loginpage.MainActivity"
+    tools:ignore="RtlHardcoded">
+
+
+    <EditText
+
+        android:id="@+id/text"
+        android:layout_width="350dp"
+        android:layout_height="107dp"
+        android:hint="@string/result"
+        android:textSize="@dimen/textsize" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="147dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/b1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/n1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/n2"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/n3"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/div"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/div"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="231dp">
+
+
+        <Button
+            android:id="@+id/b4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/n4"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b5"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/n5"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/b6"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/n6"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/mul"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/mul"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="311dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/b7"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/n7"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b8"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/n8"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b9"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/n9"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/add"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/add"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="311dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/dot"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/dot"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/b0"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/n0"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/eq"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/eq"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/sub"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/sub"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
