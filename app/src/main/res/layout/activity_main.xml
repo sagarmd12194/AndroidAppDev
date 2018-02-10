@@ -8,7 +8,7 @@
     android:layout_marginTop="15dp"
     android:gravity="left"
     android:orientation="vertical"
-    tools:context="com.example.sagar.loginpage.MainActivity"
+    tools:context="com.example.sagar.loginpage.CalcActivity"
     tools:ignore="RtlHardcoded">
 
 

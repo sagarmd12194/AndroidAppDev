@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity {
+public class CalcActivity extends AppCompatActivity {
 Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b0,dot,Bsub,Badd,Bmul,Bdiv,eq;
 EditText T_area;
 Double var1,var2,Res;
